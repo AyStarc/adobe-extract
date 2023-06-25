@@ -45,7 +45,7 @@ result: FileRef = extract_pdf_operation.execute(execution_context)
 # Save the result to the specified location.
 result.save_as(zip_file)
 
-# Extracting JSON data as a dictionary from the zip file provided by the API.
+# Extracting JSON data as a dictionary from the zip file provided by the
 with zipfile.ZipFile(zip_file, 'r') as archive:
     jsonentry = archive.open('structuredData.json')
     jsondata = jsonentry.read()
