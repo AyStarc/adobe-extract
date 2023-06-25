@@ -22,7 +22,7 @@ input_pdf = "C:/Users/ikerc/Downloads/InvoicesData/InvoicesData/TestDataSet/outp
 
 # Initial setup, create credentials instance.
 credentials = Credentials.service_account_credentials_builder()\
-    .from_file("D:/AdobeFiles/pdfservices-api-credentials.json") \
+    .from_file("pdfservices-api-credentials.json") \
     .build()
 
 # Create an ExecutionContext using credentials and create a new operation instance.
