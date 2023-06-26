@@ -19,3 +19,8 @@ Upon selection of a file, the code will continue and output
 2. Invalid JSON format for the PDF - if JSON data obtained is not in accordance with the code and some error occurs.
 
 
+# Shortcoming
+The extract API returns different JSON format for different PDFs of the same type (given as samples)
+The provided program works on the pattern of output0 perfectly so works partially correctly for other PDFs. 
+
+
